@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype 1 Blog</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+       <header id="header" class="shadow bg-light">
+           <nav class="container navbar">
+               <a href="/index.html" class="nav-brand text-dark">
+                    PrototypeBlog
+                </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <section class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="article.html" class="nav-link">Blog</a>
+                        <a href="criticalreflection.html" class="nav-link">Critical Reflection</a>
+                        <a href="closereading.html" class="nav-link">Close Reading</a>
+                        <a href="about.html" class="nav-link">About</a>
+                        
+                    </ul>
+                </section>
+
+                  <!-- collapse on toggle button click -->
+                  <section class="collapse">
+                      <ul class="navbar-nav">
+                            <section class="search-box">
+                                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                            </section>
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+                      </ul>
+                  </section>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+            <!-- Post Content -->
+                <section class="container">
+                    <article id="post">
+                        <!-- article heading -->
+                        <section class="headings text-center">
+                            <section class="category">
+                                <a href="#" class="nav-link">Close Reading</a>
+                            </section>
+
+                            <section class="title">
+                                <h1 class="text-title text-dark display-1">Overview of Data Visualisation</h1>
+                            </section>
+
+                            <section class="meta">
+                                <a href="#" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-user text-primary"></i> Umtha-Unathi Mavuso
+                                </a>
+                                <a href="#" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-clock text-primary"></i>  August, 2023
+                                </a>
+                                <a href="#" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-comments text-primary"></i> 450
+                                </a>
+                            </section>
+
+                        </section>
+
+                        <!-- thumbnail  -->
+                        <section class="thumbnail mt-3">
+                            <img src="./assets/img1.jpg" class="thumbnail" alt="">
+                        </section>
+
+                        <!-- content -->
+                        <section class="content text-dark display-2 secondary-title mt-3">
+                            <p>Data visualization has evolved from hand drawing to photo etching, often being associated with
+                                the field of computer science and animation (Li, 2020). The development of computer software
+                                has enhanced the principles of traditional data visualization by making the information easier to
+                                communicate and comprehend because the information is more cognitively appealing than
+                                traditional text-based tables and charts.
+                            </p>
+                            <p>In my experience/capacity as a game designer and web developer human visual perception plays
+                                a large role in my data visualization design process in the following ways:
+                                1. Provide displayed status information about players or characters, such as: health, score,
+                                and experience points.
+                                2. Understanding player behavior: As a game developer I can make use of data visualization
+                                to track player behavior, such as in-game player engagement/development, how long
+                                players spend on each level, what actions they take, and what decisions they make.
+                                3. Create more immersive experiences: Game developers make use of data visualizations to
+                                create immersive user experiences for players.
+                                4. Data visualizations can function as narrative devices in storytelling: The use of data
+                                visualization affords the developer opportunities to develop stories and narratives within
+                                games.
+                            </p>
+                            <p>In relation to me as a Web Developer:
+                                1. User controlled/adjusted customization capabilities to various user-defined exploration
+                                scenarios and preferences is a function of web development with regards to information
+                                displayed based on data (Li, 2020). 
+                                2. The above-mentioned audience engagement model can be used as a medium to adjust
+                                displayed data in a more engaging and informative way: Therefore, we can make use of
+                                data visualization to present data in a more engaging and informative way than traditional
+                                text-based tables and charts thus increasing user engagement. 
+                                3. Improving the user experience: Data visualization can be used to create interactive
+                                dashboards/landing pages that allow our users to analyze data. 
+                                4. Tell stories with data: Data visualization can be used to tell stories with data. For
+                                example, I may decide to create infographics in order to explain complex data concepts in
+                                a simple and easy-to-comprehend manner thus it can be used to present data in a more
+                                engaging and informative way, furthermore, to improve the user experience of websites
+                                and web applications (Wallner and Kriglstein, 2015).
+                            </p>
+                        </section>
+                    </article>
+
+                    <!-- post footer -->
+                    <section class="post-footer mb-3">
+                        <section class="post-tags d-flex flex-wrap justify-content-center">
+                            <a href="closereading.html" class="nav-link btn bg-light">Close Reading</a>
+                            <a href="criticalreflection.html" class="nav-link btn bg-light">Critical Reflection</a>
+                            <a href="datavisualisations.html" class="nav-link btn bg-light">Data-Visualisations</a>
+                            <a href="dataart.html" class="nav-link btn bg-light">Data-Art</a>
+                            <a href="designsection.html" class="nav-link btn bg-light">Design Section</a>
+                        </section>
+
+                        <section class="post-author text-center">
+                            <section class="author-avatar">
+                                <img src="./assets/avatar1.jpg" class="rounded" alt="">
+                            </section>
+
+                            <section class="author-info py-2">
+                                <h2 class="text-dark">Umtha-Unathi Mavuso</h2>
+
+                                <p class="text-secondary secondary-title">
+                                    Web Developer, Game Designer & Basketball Enthusiast.
+                                </p>
+
+                                <section class="post-tags d-flex flex-wrap justify-content-center">
+                                    <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+                                </section>
+                            </section>
+
+                        </section>
+
+                        <!-- post related -->
+                        <section class="post-realted py-2">
+                            <section class="row justify-content-center">
+                                <section class="prev">
+                                    <section class="py-2">
+                                        <a href="datavisualisations.html" class="display-2 text-dark">
+                                            <i class="fas fa-chevron-left"></i> 
+                                            Previous Post
+                                        </a>
+                                    </section>
+                                    <article class="article text-center">
+                                        <section class="d-flex">
+                                            <a href="datavisualisations.html">
+                                                <img src="./assets/px3.gif" class="object-fit" alt="">
+                                            </a>
+                                            <section class="cart-body px-1">
+                                                <section class="category">
+                                                    <a href="datavisualisations.html" class="link text-primary text-secondary">Data-Visualisations</a>
+                                                </section>
+                                                <a href="datavisualisations.html" class="text-title display-1 text-dark">
+                                                    Data-visualisations blog post
+                                                </a>
+                                            </section>
+                                        </section>
+                                    </article>
+                                </section>
+                                <section class="next text-right">
+                                    <section class="py-2">
+                                        <a href="dataart.html" class="display-2 text-dark">
+                                            Next Post 
+                                            <i class="fas fa-chevron-right"></i> 
+                                        </a>
+                                    </section>
+                                    <article class="article text-center">
+                                        <section class="d-flex">
+                                            <section class="cart-body px-1">
+                                                <section class="category">
+                                                    <a href="dataart.html" class="link text-primary text-secondary">Data-Art</a>
+                                                </section>
+                                                <a href="dataart.html" class="text-title display-1 text-dark">
+                                                    Data-Art blog post.
+                                                </a>
+                                            </section>
+                                            <a href="dataart.html">
+                                                <img src="./assets/px4.gif" class="object-fit" alt="">
+                                            </a>
+                                        </section>
+                                    </article>
+                                </section>
+                            </section>
+                        </section>
+
+                        <section class="post-comments py-2">
+                            <h3 class="text-center display-1 secondary-title py-2">3 Comments</h3>
+    
+                            <section class="comment-details">
+                                <section class="comment-item py-2">
+                                    <section class="d-flex">
+                                        <section class="avatar px-2">
+                                            <img src="./assets/face/face1.jpg" class="rounded" alt="">
+                                        </section>
+                                        <section class="comment-content">
+                                            <h4 class="display-2 m-0">Marsha Stewart</h4>
+                                            <p class="title-secondary text-dark">
+                                                Not many developers like you around.
+                                            </p>
+                                        </section>
+                                    </section>
+                                     <!-- comment reply -->
+                                     <section class="reply py-2">
+                                        <section class="d-flex">
+                                            <section class="avatar px-2">
+                                                <img src="./assets/face/face2.jpg" class="rounded" alt="">
+                                            </section>
+                                            <section class="comment-content">
+                                                <h5 class="display-2 m-0">John Doe</h5>
+                                                <p class="title-secondary text-dark">
+                                                    Cool.
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+    
+                                </section>
+                                <section class="comment-item py-2">
+                                    <section class="d-flex">
+                                        <section class="avatar px-2">
+                                            <img src="./assets/face/face3.jpg" class="rounded" alt="">
+                                        </section>
+                                        <section class="comment-content">
+                                            <h6 class="display-2 m-0">Brad Shaw</h6>
+                                            <p class="title-secondary text-dark">
+                                                I don't quite get you.
+                                            </p>
+    
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+    
+                            <h1 class="text-center display-1 secondary-title py-2">Leave Comment</h1>
+    
+                            <section class="comment-form">
+                                <section class="d-flex justify-content-between flex-wrap">
+                                    <input type="text" class="form-control " placeholder="Name">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                    <input type="text" class="form-control" placeholder="Website">
+                                </section>
+                                <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                                <section class="text-center">
+                                    <button type="submit" class="btn btn-primary display-2 text-light mt-2">Submit</button>
+                                </section>
+                            </section>
+                        </section>
+
+                    </section>
+                    <!-- .post footer -->
+
+                </section>
+            <!-- .Post Content -->
+
+            <!-- Swiper slider -->
+                <section class="slider">
+                    <section class="container">
+
+                        <!-- Slider main container -->
+                            <section class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <section class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <section class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img1.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </section>
+                                     <!-- Slides -->
+                                      <!-- Slides -->
+                                    <section class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </section>
+                                     <!-- Slides -->
+                                      <!-- Slides -->
+                                    <section class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </section>
+                                        <!-- Slides -->
+                                             <!-- Slides -->
+                                    <section class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </section>
+                                        <!-- Slides -->
+                                        <section class="swiper-slide">
+                                            <a href="#">
+                                                <img src="./assets/slider/img5.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </section>
+                                            <!-- Slides -->
+                                            <section class="swiper-slide">
+                                                <a href="#">
+                                                    <img src="./assets/slider/img6.jpg" class="img-fluid" alt="">
+                                                </a>
+                                            </section>
+                                                <!-- Slides -->
+                                                <section class="swiper-slide">
+                                                    <a href="#">
+                                                        <img src="./assets/slider/img7.jpg" class="img-fluid" alt="">
+                                                    </a>
+                                                </section>
+                                                    <!-- Slides -->
+
+                                </section>
+                            </section>
+
+                    </section>
+                </section>
+             <!-- .Swiper slider -->
+
+       </main>
+    <!-- .Main Site -->
+
+    <!-- footer -->
+       <footer id="footer">
+           <section class="container">
+               <section class="row mb-3">
+                   <section class="col-3">
+                       <h2 class="footer-title secondary-title">About Me</h2>
+
+                       <section class="secondary-title text-secondary">
+                            <p class="mt-2 ">
+                                My Name is Umtha-Unathi Mavuso I am third-year game designer and web developer.
+                            </p>
+                            
+                            <address>
+                                <i class="fas fa-map-marker-alt text-primary"></i> 
+                                1 Jan Smuts Ave, Braamfontein, Johannesburg, 2017, South Africa
+                            </address>
+
+                            <section class="phone">
+                                <i class="fas fa-mobile text-primary"></i> 
+                                508-507-2209
+                            </section>
+
+                            <section class="email">
+                                <i class="fas fa-envelope text-primary"></i> 
+                                2483967@students.wits.ac.za
+                            </section>
+
+                       </section>
+                   </section>
+                   <section class="col-3">
+                       <h3 class="footer-title secondary-title">Feature Post</h3>
+
+                       <section class="feature-post">
+                           <section class="flex-item">
+                               <article class="article">
+                                   <section class="d-flex">
+                                       <a href="closereading.html">
+                                           <img src="./assets/px1.gif" class="object-fit px-1" alt="">
+                                           <section class="px-1">
+                                               <a href="closereading.html" class="text-title display-2 text-dark">
+                                                Close Reading
+                                               </a>
+                                               <p class="secondary-title text-secondary display-3">
+                                                    <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2023 </span>
+                                               </p>
+                                           </section>
+                                       </a>
+                                   </section>
+                               </article>
+                           </section>
+                           <section class="flex-item">
+                            <article class="article">
+                                <section class="d-flex">
+                                    <a href="criticalreflection.html">
+                                        <img src="./assets/px2.gif" class="object-fit px-1" alt="">
+                                        <section class="px-1">
+                                            <a href="criticalreflection.html" class="text-title display-2 text-dark">
+                                             Critical Reflection
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2023 </span>
+                                            </p>
+                                        </section>
+                                    </a>
+                                </section>
+                            </article>
+                             </section>
+                             <section class="flex-item">
+                                <article class="article">
+                                    <section class="d-flex">
+                                        <a href="datavisualisations.html">
+                                            <img src="./assets/px3.gif" class="object-fit px-1" alt="">
+                                            <section class="px-1">
+                                                <a href="datavisualisations.html" class="text-title display-2 text-dark">
+                                                 Data-Visualisations
+                                                </a>
+                                                <p class="secondary-title text-secondary display-3">
+                                                     <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2023 </span>
+                                                </p>
+                                            </section>
+                                        </a>
+                                    </section>
+                                </article>
+                            </section>
+                            <section class="flex-item">
+                                <article class="article">
+                                    <section class="d-flex">
+                                        <a href="dataart.html">
+                                            <img src="./assets/px4.gif" class="object-fit px-1" alt="">
+                                            <section class="px-1">
+                                                <a href="dataart.html" class="text-title display-2 text-dark">
+                                                 Data Art
+                                                </a>
+                                                <p class="secondary-title text-secondary display-3">
+                                                     <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2023 </span>
+                                                </p>
+                                            </section>
+                                        </a>
+                                    </section>
+                                </article>
+                            </section>
+                       </section>
+                   </section>
+                   <section class="col-3">
+                        <h4 class="footer-title secondary-title">Tags</h4>
+
+                        <section class="tags">
+                            <section class="d-flex flex-wrap">
+                                <a href="closereading.html" class="nav-link btn bg-light">Close Reading</a>
+                                <a href="criticalreflection.html" class="nav-link btn bg-light">Critical Reflection</a>
+                                <a href="datavisualisations.html" class="nav-link btn bg-light">Data-Visualisations</a>
+                                <a href="dataart.html" class="nav-link btn bg-light">Data-Art</a>
+                                <a href="designsection.html" class="nav-link btn bg-light">Design Section</a>
+                            </section>
+                        </section>
+
+                        <h5 class="footer-title secondary-title mt-2">Social</h5>
+
+                        <section class="tags social">
+                            <section class="d-flex flex-wrap">
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-dribbble"></i></a>
+                            </section>
+                        </section>
+
+                   </section>
+               </section>
+
+               <!-- copyrights  -->
+               <section class="copyrights">
+                   <p class="text-center text-secondary display-2">
+                        © 2023 <a href="index.html" class="text-primary">PrototypeBlog</a> - Personal Blog. All rights reserved.
+                   </p>
+               </section>
+           </section>
+       </footer>
+    <!-- .footer -->
+    <div id="speed-container" class="range-field">
+        <label for="speed-slider">Travel Speed</label>
+        <input value="20" type="range" id="speed-slider" step="1" min="0" max="100" />
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="nasa.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="starfield.js"></script>
+
+
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <!-- swiper slider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+</html>
